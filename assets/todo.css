@@ -1,0 +1,120 @@
+/* nanoscrollbar */
+.nano .pane   { background: #888; }
+.nano .slider { background: #111; }
+
+body {
+    /* Override bootstrap properties */
+    background-color: #374a5d !important;
+    border: 0 !important;
+}
+
+#container{
+
+    margin: 0 auto;
+    width: 1060px;
+    min-height: 100%;
+    background-color: transparent;
+    border: 0;
+}
+
+#header{
+    /*position: fixed;*/
+    font-family: Comic Sans, Comic Sans MS;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 100px;
+    margin-bottom: 10px;
+    color:#FFFFFF;
+    /*color: #ff7f00;*/
+}
+.task-list{
+    width: 250px;
+    float: left;
+    margin: 0 5px;
+    /*background-color: #e3e3e3;*/
+    background:rgba(255,255,255,0.5);
+    /*background-image: url(container.jpg);*/
+    min-height: 280px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    
+
+
+}
+
+#addcontainer{
+    width: 250px;
+    float: left;
+    margin: 0 5px;
+    /*background-color: #e3e3e3;*/
+    background:rgba(255,255,255,0.5);
+    /*background-image: url(container.jpg);*/
+    min-height: 500px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+/*.insertimg{
+    margin-bottom: 0px;
+    float: bottom;
+}*/
+
+.task-list input, .task-list textarea{
+    width: 240px;
+    margin: 1px 5px;
+}
+
+.task-list input{
+    height: 30px;
+}
+
+.todo-task{
+    border-radius: 5px;
+    background-color: #fff;
+    width: 230px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.task-list input[type="button"]{
+    width: 100px;
+    margin: 5px;
+
+}
+
+
+.todo-task > .task-header{
+    font-weight: bold;
+}
+
+.todo-task > .task-date{
+    font-size: small;
+    font-style: italic;
+}
+
+.todo-task > .task-description{
+    font-size: smaller;
+}
+
+h3{
+    text-align: center;
+    font-family: Comic Sans, Comic Sans MS;
+    color:#404040;
+
+}
+.checkbox{
+    padding-left: 0px;
+}
+
+
+#delete-div{
+    display: none;
+    background-color: #fff;
+    border: 3px dotted #000;
+    margin: 10px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+}
